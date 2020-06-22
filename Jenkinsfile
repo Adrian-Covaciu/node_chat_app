@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Running build automation'
-                node ./
+                sh node ./
                 echo 'Application is running'
             }
         }
