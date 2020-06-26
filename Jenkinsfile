@@ -6,7 +6,7 @@ pipeline {
                 echo 'Running build automation'
                 bat "npm install"
                 echo 'Modules installed'
-                bat "node ./"
+                sh "npm start"
                 echo 'Application is running'
             }
         }
