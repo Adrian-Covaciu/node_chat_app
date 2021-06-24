@@ -12,5 +12,3 @@ sudo systemctl start docker && sudo systemctl enable docker
 sudo docker build -t weather .
 sudo docker container run -d -p 8080:3000 weather
 
-#check webpage for html output
-curl localhost:8080
