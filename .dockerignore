@@ -1,3 +1,5 @@
 *yml
 Dockerfile
 Jenkinsfile
+docker-install.sh
+README.md
